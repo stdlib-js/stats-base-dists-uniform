@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.uniform;
+})();
 })();
 </script>
 ```
@@ -143,9 +145,11 @@ var y = dist.cdf( 2.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( uniform ) );
 
+})();
 })();
 </script>
 </body>
@@ -237,33 +241,33 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/uniform/ctor]: https://github.com/stdlib-js/stats-base-dists-uniform-ctor/tree/umd
+[@stdlib/stats/base/dists/uniform/ctor]: https://github.com/stdlib-js/stats-base-dists-uniform-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/entropy]: https://github.com/stdlib-js/stats-base-dists-uniform-entropy/tree/umd
+[@stdlib/stats/base/dists/uniform/entropy]: https://github.com/stdlib-js/stats-base-dists-uniform-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/kurtosis]: https://github.com/stdlib-js/stats-base-dists-uniform-kurtosis/tree/umd
+[@stdlib/stats/base/dists/uniform/kurtosis]: https://github.com/stdlib-js/stats-base-dists-uniform-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/mean]: https://github.com/stdlib-js/stats-base-dists-uniform-mean/tree/umd
+[@stdlib/stats/base/dists/uniform/mean]: https://github.com/stdlib-js/stats-base-dists-uniform-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/median]: https://github.com/stdlib-js/stats-base-dists-uniform-median/tree/umd
+[@stdlib/stats/base/dists/uniform/median]: https://github.com/stdlib-js/stats-base-dists-uniform-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/skewness]: https://github.com/stdlib-js/stats-base-dists-uniform-skewness/tree/umd
+[@stdlib/stats/base/dists/uniform/skewness]: https://github.com/stdlib-js/stats-base-dists-uniform-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/stdev]: https://github.com/stdlib-js/stats-base-dists-uniform-stdev/tree/umd
+[@stdlib/stats/base/dists/uniform/stdev]: https://github.com/stdlib-js/stats-base-dists-uniform-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/variance]: https://github.com/stdlib-js/stats-base-dists-uniform-variance/tree/umd
+[@stdlib/stats/base/dists/uniform/variance]: https://github.com/stdlib-js/stats-base-dists-uniform-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/cdf]: https://github.com/stdlib-js/stats-base-dists-uniform-cdf/tree/umd
+[@stdlib/stats/base/dists/uniform/cdf]: https://github.com/stdlib-js/stats-base-dists-uniform-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/logcdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logcdf/tree/umd
+[@stdlib/stats/base/dists/uniform/logcdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logcdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/logpdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logpdf/tree/umd
+[@stdlib/stats/base/dists/uniform/logpdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logpdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/mgf]: https://github.com/stdlib-js/stats-base-dists-uniform-mgf/tree/umd
+[@stdlib/stats/base/dists/uniform/mgf]: https://github.com/stdlib-js/stats-base-dists-uniform-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/pdf]: https://github.com/stdlib-js/stats-base-dists-uniform-pdf/tree/umd
+[@stdlib/stats/base/dists/uniform/pdf]: https://github.com/stdlib-js/stats-base-dists-uniform-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/uniform/quantile]: https://github.com/stdlib-js/stats-base-dists-uniform-quantile/tree/umd
+[@stdlib/stats/base/dists/uniform/quantile]: https://github.com/stdlib-js/stats-base-dists-uniform-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
