@@ -35,38 +35,32 @@ limitations under the License.
 
 > Continuous uniform distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-uniform
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var uniform = require( 'path/to/vendor/umd/stats-base-dists-uniform/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.uniform;
-})();
-</script>
+var uniform = require( '@stdlib/stats-base-dists-uniform' );
 ```
 
 #### uniform
@@ -146,21 +140,39 @@ var y = dist.cdf( 2.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var uniform = require( '@stdlib/stats-base-dists-uniform' );
 
-console.log( objectKeys( uniform ) );
+/*
+Let's consider an example where we are modeling the arrival times of guests
+at a reception event that runs from 6:00 PM to 8:00 PM, where each arrival
+within this 2-hour window is equally likely. We can model this scenario using a
+continuous  uniform distribution with a minimum value of 0 (6:00 PM) and
+a maximum value of 120 (8:00 PM).
+*/
 
-})();
-</script>
-</body>
-</html>
+var min = 0.0; // 6:00 PM is 0 minutes after 6:00 PM.
+var max = 120.0; // 8:00 PM is 120 minutes after 6:00 PM.
+
+var mean = uniform.mean( min, max );
+// returns 60.0
+
+var variance = uniform.variance( min, max );
+// returns 1200.0
+
+var stdDev = uniform.stdev( min, max );
+// returns ~34.641
+
+var entropy = uniform.entropy( min, max );
+// returns ~4.787
+
+// Probability of arrival within 30 minutes after 6:00 PM:
+var p = uniform.cdf( 30, min, max );
+// returns 0.25
+
+// Evaluate the PDF at 30 minutes after 6:00 PM:
+var pdf = uniform.pdf( 30, min, max );
+// returns ~0.0083
 ```
 
 </section>
@@ -251,33 +263,33 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/uniform/ctor]: https://github.com/stdlib-js/stats-base-dists-uniform-ctor/tree/umd
+[@stdlib/stats/base/dists/uniform/ctor]: https://github.com/stdlib-js/stats-base-dists-uniform-ctor
 
-[@stdlib/stats/base/dists/uniform/entropy]: https://github.com/stdlib-js/stats-base-dists-uniform-entropy/tree/umd
+[@stdlib/stats/base/dists/uniform/entropy]: https://github.com/stdlib-js/stats-base-dists-uniform-entropy
 
-[@stdlib/stats/base/dists/uniform/kurtosis]: https://github.com/stdlib-js/stats-base-dists-uniform-kurtosis/tree/umd
+[@stdlib/stats/base/dists/uniform/kurtosis]: https://github.com/stdlib-js/stats-base-dists-uniform-kurtosis
 
-[@stdlib/stats/base/dists/uniform/mean]: https://github.com/stdlib-js/stats-base-dists-uniform-mean/tree/umd
+[@stdlib/stats/base/dists/uniform/mean]: https://github.com/stdlib-js/stats-base-dists-uniform-mean
 
-[@stdlib/stats/base/dists/uniform/median]: https://github.com/stdlib-js/stats-base-dists-uniform-median/tree/umd
+[@stdlib/stats/base/dists/uniform/median]: https://github.com/stdlib-js/stats-base-dists-uniform-median
 
-[@stdlib/stats/base/dists/uniform/skewness]: https://github.com/stdlib-js/stats-base-dists-uniform-skewness/tree/umd
+[@stdlib/stats/base/dists/uniform/skewness]: https://github.com/stdlib-js/stats-base-dists-uniform-skewness
 
-[@stdlib/stats/base/dists/uniform/stdev]: https://github.com/stdlib-js/stats-base-dists-uniform-stdev/tree/umd
+[@stdlib/stats/base/dists/uniform/stdev]: https://github.com/stdlib-js/stats-base-dists-uniform-stdev
 
-[@stdlib/stats/base/dists/uniform/variance]: https://github.com/stdlib-js/stats-base-dists-uniform-variance/tree/umd
+[@stdlib/stats/base/dists/uniform/variance]: https://github.com/stdlib-js/stats-base-dists-uniform-variance
 
-[@stdlib/stats/base/dists/uniform/cdf]: https://github.com/stdlib-js/stats-base-dists-uniform-cdf/tree/umd
+[@stdlib/stats/base/dists/uniform/cdf]: https://github.com/stdlib-js/stats-base-dists-uniform-cdf
 
-[@stdlib/stats/base/dists/uniform/logcdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logcdf/tree/umd
+[@stdlib/stats/base/dists/uniform/logcdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logcdf
 
-[@stdlib/stats/base/dists/uniform/logpdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logpdf/tree/umd
+[@stdlib/stats/base/dists/uniform/logpdf]: https://github.com/stdlib-js/stats-base-dists-uniform-logpdf
 
-[@stdlib/stats/base/dists/uniform/mgf]: https://github.com/stdlib-js/stats-base-dists-uniform-mgf/tree/umd
+[@stdlib/stats/base/dists/uniform/mgf]: https://github.com/stdlib-js/stats-base-dists-uniform-mgf
 
-[@stdlib/stats/base/dists/uniform/pdf]: https://github.com/stdlib-js/stats-base-dists-uniform-pdf/tree/umd
+[@stdlib/stats/base/dists/uniform/pdf]: https://github.com/stdlib-js/stats-base-dists-uniform-pdf
 
-[@stdlib/stats/base/dists/uniform/quantile]: https://github.com/stdlib-js/stats-base-dists-uniform-quantile/tree/umd
+[@stdlib/stats/base/dists/uniform/quantile]: https://github.com/stdlib-js/stats-base-dists-uniform-quantile
 
 <!-- </toc-links> -->
 
