@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@esm/index.mjs';
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Uniform, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@esm/index.mjs';
+import { Uniform, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.2.2-esm/index.mjs';
 ```
 
 #### uniform
@@ -134,7 +134,7 @@ var y = dist.cdf( 2.5 );
 <body>
 <script type="module">
 
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@esm/index.mjs';
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.2.2-esm/index.mjs';
 
 /*
 Let's consider an example where we are modeling the arrival times of guests
