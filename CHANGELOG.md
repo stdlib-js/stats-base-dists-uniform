@@ -4,23 +4,209 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-uniform-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d6fbbd`](https://github.com/stdlib-js/stdlib/commit/4d6fbbd6ec73ee9d0ccb3bba1869f34d184329dd) - add C implementation for `stats/base/dists/uniform/entropy` [(#4021)](https://github.com/stdlib-js/stdlib/pull/4021)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3826](https://github.com/stdlib-js/stdlib/issues/3826)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`293cd1a`](https://github.com/stdlib-js/stdlib/commit/293cd1a2427ab5861d145f01c54c9c740048b438) - add C implementation for `stats/base/dists/uniform/mean` [(#3964)](https://github.com/stdlib-js/stdlib/pull/3964)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3830](https://github.com/stdlib-js/stdlib/issues/3830)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-median-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1aa67dd`](https://github.com/stdlib-js/stdlib/commit/1aa67ddd1e238c681c845626c20b5377bd5e35aa) - add C implementation for `stats/base/dists/uniform/median` [(#3970)](https://github.com/stdlib-js/stdlib/pull/3970)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3831](https://github.com/stdlib-js/stdlib/issues/3831)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`27824a1`](https://github.com/stdlib-js/stdlib/commit/27824a1f3c90218cfe5f3be923f8f879d98ed9dc) - add C implementation for `stats/base/dists/uniform/pdf` [(#3949)](https://github.com/stdlib-js/stdlib/pull/3949)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3833](https://github.com/stdlib-js/stdlib/issues/3833)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`930ed98`](https://github.com/stdlib-js/stdlib/commit/930ed98207b9ae67f00b23917755589dbbd03fe5) - add C implementation for `stats/base/dists/uniform/variance` [(#3951)](https://github.com/stdlib-js/stdlib/pull/3951)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3837](https://github.com/stdlib-js/stdlib/issues/3837)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 5 issues were closed in this release:
+
+[#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
+-   Athan Reines
+-   Divyansh Seth
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
@@ -32,6 +218,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`c4c4ed8`](https://github.com/stdlib-js/stdlib/commit/c4c4ed8abb88be48be587bcc9b9235e10de86aa4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`1aa67dd`](https://github.com/stdlib-js/stdlib/commit/1aa67ddd1e238c681c845626c20b5377bd5e35aa) - **feat:** add C implementation for `stats/base/dists/uniform/median` [(#3970)](https://github.com/stdlib-js/stdlib/pull/3970) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`293cd1a`](https://github.com/stdlib-js/stdlib/commit/293cd1a2427ab5861d145f01c54c9c740048b438) - **feat:** add C implementation for `stats/base/dists/uniform/mean` [(#3964)](https://github.com/stdlib-js/stdlib/pull/3964) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`8553770`](https://github.com/stdlib-js/stdlib/commit/85537708442675d6bc1bf5dad5aaf252cecb82ac) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4d6fbbd`](https://github.com/stdlib-js/stdlib/commit/4d6fbbd6ec73ee9d0ccb3bba1869f34d184329dd) - **feat:** add C implementation for `stats/base/dists/uniform/entropy` [(#4021)](https://github.com/stdlib-js/stdlib/pull/4021) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`27824a1`](https://github.com/stdlib-js/stdlib/commit/27824a1f3c90218cfe5f3be923f8f879d98ed9dc) - **feat:** add C implementation for `stats/base/dists/uniform/pdf` [(#3949)](https://github.com/stdlib-js/stdlib/pull/3949) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`ccbaa42`](https://github.com/stdlib-js/stdlib/commit/ccbaa42486fd36b15e2c17b0d30e0b0508f533d6) - **style:** fix formatting _(by Athan Reines)_
+-   [`930ed98`](https://github.com/stdlib-js/stdlib/commit/930ed98207b9ae67f00b23917755589dbbd03fe5) - **feat:** add C implementation for `stats/base/dists/uniform/variance` [(#3951)](https://github.com/stdlib-js/stdlib/pull/3951) _(by Aayush Khanna)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 
 </details>
