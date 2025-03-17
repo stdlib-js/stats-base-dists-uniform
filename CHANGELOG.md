@@ -4,11 +4,59 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="stats-base-dists-uniform-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/cdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-ctor-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/ctor)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="stats-base-dists-uniform-entropy-unreleased">
 
@@ -30,9 +78,111 @@
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3826](https://github.com/stdlib-js/stdlib/issues/3826)
+[#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0806d8d`](https://github.com/stdlib-js/stdlib/commit/0806d8dd46ea52f7e95c12b1add6b3e01745711b) - add C implementation for `stats/base/dists/uniform/kurtosis` [(#4132)](https://github.com/stdlib-js/stdlib/pull/4132)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3827](https://github.com/stdlib-js/stdlib/issues/3827), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/logcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e5880d1`](https://github.com/stdlib-js/stdlib/commit/e5880d18a941b1bb088cf9d55ee3e39a20e21938) - add C implementation for `stats/base/dists/uniform/logcdf` [(#4140)](https://github.com/stdlib-js/stdlib/pull/4140)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3828](https://github.com/stdlib-js/stdlib/issues/3828), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ac38037`](https://github.com/stdlib-js/stdlib/commit/ac3803778a758e68a576b497479babbfbafde973) - add C implementation for `stats/base/dists/uniform/logpdf` [(#4141)](https://github.com/stdlib-js/stdlib/pull/4141)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3829](https://github.com/stdlib-js/stdlib/issues/3829), [#4991](https://github.com/stdlib-js/stdlib/issues/4991), [#5233](https://github.com/stdlib-js/stdlib/issues/5233)
 
 </section>
 
@@ -64,9 +214,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3830](https://github.com/stdlib-js/stdlib/issues/3830)
+[#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
 
 </section>
 
@@ -98,9 +248,43 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3831](https://github.com/stdlib-js/stdlib/issues/3831)
+[#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-mgf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/mgf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bc90eba`](https://github.com/stdlib-js/stdlib/commit/bc90ebaf8e8318423f84cf652e1003836e898ab4) - add C implementation for `stats/base/dists/uniform/mgf` [(#4142)](https://github.com/stdlib-js/stdlib/pull/4142)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3832](https://github.com/stdlib-js/stdlib/issues/3832), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
 
 </section>
 
@@ -132,9 +316,101 @@ This release closes the following issue:
 
 ##### Closed Issues
 
+A total of 2 issues were closed in this release:
+
+[#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/quantile)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f0a9789`](https://github.com/stdlib-js/stdlib/commit/f0a978990a4e4cb1598203dd9b7a3e73665e82cd) - add C implementation for `stats/base/dists/uniform/quantile` [(#4143)](https://github.com/stdlib-js/stdlib/pull/4143)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3834](https://github.com/stdlib-js/stdlib/issues/3834), [#4991](https://github.com/stdlib-js/stdlib/issues/4991), [#5231](https://github.com/stdlib-js/stdlib/issues/5231)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/skewness)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
 This release closes the following issue:
 
-[#3833](https://github.com/stdlib-js/stdlib/issues/3833)
+[#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d9c5d0c`](https://github.com/stdlib-js/stdlib/commit/d9c5d0c3343a0d0354d90d57f39638183bf3f51d) - add C implementation for `stats/base/dists/uniform/stdev` [(#4133)](https://github.com/stdlib-js/stdlib/pull/4133)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3836](https://github.com/stdlib-js/stdlib/issues/3836), [#4991](https://github.com/stdlib-js/stdlib/issues/4991), [#5304](https://github.com/stdlib-js/stdlib/issues/5304)
 
 </section>
 
@@ -166,9 +442,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3837](https://github.com/stdlib-js/stdlib/issues/3837)
+[#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#4991](https://github.com/stdlib-js/stdlib/issues/4991)
 
 </section>
 
@@ -188,9 +464,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 15 issues were closed in this release:
 
-[#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837)
+[#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3827](https://github.com/stdlib-js/stdlib/issues/3827), [#3828](https://github.com/stdlib-js/stdlib/issues/3828), [#3829](https://github.com/stdlib-js/stdlib/issues/3829), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3832](https://github.com/stdlib-js/stdlib/issues/3832), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3834](https://github.com/stdlib-js/stdlib/issues/3834), [#3836](https://github.com/stdlib-js/stdlib/issues/3836), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#4991](https://github.com/stdlib-js/stdlib/issues/4991), [#5231](https://github.com/stdlib-js/stdlib/issues/5231), [#5233](https://github.com/stdlib-js/stdlib/issues/5233), [#5304](https://github.com/stdlib-js/stdlib/issues/5304)
 
 </section>
 
@@ -200,13 +476,18 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Divyansh Seth
+-   Gaurav
+-   Harsh
+-   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
+-   Rishav Tarway
+-   Saurabh Singh
 
 </section>
 
@@ -218,6 +499,22 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f6829da`](https://github.com/stdlib-js/stdlib/commit/f6829da93ff5ed53f07365ce1b2ce8303a5f517a) - **chore:** address commit comments [(#5320)](https://github.com/stdlib-js/stdlib/pull/5320) _(by Saurabh Singh)_
+-   [`bc90eba`](https://github.com/stdlib-js/stdlib/commit/bc90ebaf8e8318423f84cf652e1003836e898ab4) - **feat:** add C implementation for `stats/base/dists/uniform/mgf` [(#4142)](https://github.com/stdlib-js/stdlib/pull/4142) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`afa0a17`](https://github.com/stdlib-js/stdlib/commit/afa0a17b6d628f825151674c1c3848be2a16f5dc) - **test:** pass in missing `opts` argument [(#5794)](https://github.com/stdlib-js/stdlib/pull/5794) _(by Karan Anand)_
+-   [`e1c0bd2`](https://github.com/stdlib-js/stdlib/commit/e1c0bd2a55ba108c5e77c99ab17117b9f6693508) - **chore:** address commit comment [(#5321)](https://github.com/stdlib-js/stdlib/pull/5321) _(by Harsh, Philipp Burckhardt)_
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
+-   [`eebd899`](https://github.com/stdlib-js/stdlib/commit/eebd899ffc0b1517c40f105e1a21252a8e31c48b) - **style:** add missing space [(#5287)](https://github.com/stdlib-js/stdlib/pull/5287) _(by Rishav Tarway)_
+-   [`c7bfa92`](https://github.com/stdlib-js/stdlib/commit/c7bfa923af0c5346766c90300e0d0a3c2188d438) - **docs:** fix missing ending `section` in various READMEs [(#5292)](https://github.com/stdlib-js/stdlib/pull/5292) _(by Saurabh Singh)_
+-   [`d9c5d0c`](https://github.com/stdlib-js/stdlib/commit/d9c5d0c3343a0d0354d90d57f39638183bf3f51d) - **feat:** add C implementation for `stats/base/dists/uniform/stdev` [(#4133)](https://github.com/stdlib-js/stdlib/pull/4133) _(by Prashant Kumar Yadav, stdlib-bot)_
+-   [`f0a9789`](https://github.com/stdlib-js/stdlib/commit/f0a978990a4e4cb1598203dd9b7a3e73665e82cd) - **feat:** add C implementation for `stats/base/dists/uniform/quantile` [(#4143)](https://github.com/stdlib-js/stdlib/pull/4143) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`e5880d1`](https://github.com/stdlib-js/stdlib/commit/e5880d18a941b1bb088cf9d55ee3e39a20e21938) - **feat:** add C implementation for `stats/base/dists/uniform/logcdf` [(#4140)](https://github.com/stdlib-js/stdlib/pull/4140) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`ac38037`](https://github.com/stdlib-js/stdlib/commit/ac3803778a758e68a576b497479babbfbafde973) - **feat:** add C implementation for `stats/base/dists/uniform/logpdf` [(#4141)](https://github.com/stdlib-js/stdlib/pull/4141) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav, Philipp Burckhardt, stdlib-bot)_
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`b9a2014`](https://github.com/stdlib-js/stdlib/commit/b9a2014b1181d30f86aa489ba90ad1f892ade8e8) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`0806d8d`](https://github.com/stdlib-js/stdlib/commit/0806d8dd46ea52f7e95c12b1add6b3e01745711b) - **feat:** add C implementation for `stats/base/dists/uniform/kurtosis` [(#4132)](https://github.com/stdlib-js/stdlib/pull/4132) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`ba0c854`](https://github.com/stdlib-js/stdlib/commit/ba0c854e87d0e86d0f7739e26095ec0a0f40c36f) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
 -   [`177f0a0`](https://github.com/stdlib-js/stdlib/commit/177f0a00909c097be05d47107a3e6ab05b865409) - **chore:** consistently use differential entropy for continuous distributions _(by Philipp Burckhardt)_
 -   [`8ada47e`](https://github.com/stdlib-js/stdlib/commit/8ada47eedd19ea9f21a8edc342ee3583e92ac857) - **chore:** fix indentation _(by Philipp Burckhardt)_
 -   [`33a4af8`](https://github.com/stdlib-js/stdlib/commit/33a4af8ea02d79120618cb4d50edb87d8aeab6a0) - **chore:** remove extra spaces _(by Philipp Burckhardt)_
