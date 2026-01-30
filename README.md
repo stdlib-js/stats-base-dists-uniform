@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@deno/mod.js';
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Uniform, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@deno/mod.js';
+import { Uniform, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.3.0-deno/mod.js';
 ```
 
 #### uniform
@@ -129,7 +129,7 @@ var y = dist.cdf( 2.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@deno/mod.js';
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform@v0.3.0-deno/mod.js';
 
 /*
 Let's consider an example where we are modeling the arrival times of guests
