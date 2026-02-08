@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2026-02-08)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`c581849`](https://github.com/stdlib-js/stdlib/commit/c5818493ad7d9bc39aa8ccae27a8a6b3b905406b) - **bench:** update random value generation for `stats/base/dists/uniform` [(#10010)](https://github.com/stdlib-js/stdlib/pull/10010) _(by Lokesh Ranjan, Athan Reines)_
+-   [`647b041`](https://github.com/stdlib-js/stdlib/commit/647b041046ea97ebc3cc35297e13f87134438c75) - **bench:** update random value generation for `stats/base/dists/uniform` [(#10007)](https://github.com/stdlib-js/stdlib/pull/10007) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Lokesh Ranjan
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-30)
