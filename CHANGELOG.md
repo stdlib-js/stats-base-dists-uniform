@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-15)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`02eea36`](https://github.com/stdlib-js/stdlib/commit/02eea36390157951b2bdc66331c9b469c187bfc4) - **test:** migrate `stats/base/dists/uniform/cdf` to ULP-based assertions [(#15192)](https://github.com/stdlib-js/stdlib/pull/15192) _(by Aryan kumar)_
+-   [`6224797`](https://github.com/stdlib-js/stdlib/commit/6224797683e0913dddd52ff37f71f707486ae101) - **test:** migrate `stats/base/dists/uniform/pdf` to ULP-based assertions [(#15172)](https://github.com/stdlib-js/stdlib/pull/15172) _(by Aryan kumar)_
+-   [`ffef941`](https://github.com/stdlib-js/stdlib/commit/ffef941902c2d3fa1287248f5eea617532719b44) - **test:** migrate `stats/base/dists/uniform/mgf` to ULP-based assertions [(#15174)](https://github.com/stdlib-js/stdlib/pull/15174) _(by Aryan kumar)_
+-   [`d17005a`](https://github.com/stdlib-js/stdlib/commit/d17005a5f01b36ea5cae81c6eea4463cc0341f35) - **test:** migrate `stats/base/dists/uniform/quantile` to ULP-based assertions [(#14626)](https://github.com/stdlib-js/stdlib/pull/14626) _(by Athan Reines)_
+-   [`243fdbc`](https://github.com/stdlib-js/stdlib/commit/243fdbc16a8f8e5e8cd291b06790d6ed46f6990f) - **test:** migrate `stats/base/dists/uniform/mean` to ULP-based assertions [(#14589)](https://github.com/stdlib-js/stdlib/pull/14589) _(by Athan Reines)_
+-   [`2498242`](https://github.com/stdlib-js/stdlib/commit/24982425e037f773cf22d504b9b235a49c04d23b) - **test:** migrate `stats/base/dists/uniform/logpdf` to ULP-based assertions [(#14210)](https://github.com/stdlib-js/stdlib/pull/14210) _(by Philipp Burckhardt)_
+-   [`9733443`](https://github.com/stdlib-js/stdlib/commit/97334439df4be90461f99e0a5346e82e9bfed456) - **test:** migrate `stats/base/dists/uniform/entropy` to ULP-based assertions [(#14108)](https://github.com/stdlib-js/stdlib/pull/14108) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
@@ -33,8 +40,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Karan Anand
 -   LZYCODEr
