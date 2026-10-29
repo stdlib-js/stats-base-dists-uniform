@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-10-29)
 
 <section class="commits">
 
@@ -12,6 +12,15 @@
 
 <details>
 
+-   [`d808dba`](https://github.com/stdlib-js/stdlib/commit/d808dba488c69f9eada1f377780a5da1cf889159) - **docs:** update description [(#16343)](https://github.com/stdlib-js/stdlib/pull/16343) _(by stdlib-bot)_
+-   [`ad8f864`](https://github.com/stdlib-js/stdlib/commit/ad8f864672ca42594a6d382b0c23e4d9f77e6c52) - **docs:** update descriptions [(#16336)](https://github.com/stdlib-js/stdlib/pull/16336) _(by Philipp Burckhardt)_
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
+-   [`72cf0ed`](https://github.com/stdlib-js/stdlib/commit/72cf0edb51bfc20fe9b644fb64de03242f01966d) - **docs:** fix incorrect return annotations [(#15830)](https://github.com/stdlib-js/stdlib/pull/15830) _(by anee3)_
+-   [`c276f7d`](https://github.com/stdlib-js/stdlib/commit/c276f7d02f9c0a04185f8175fe8956b8f350c5cd) - **test:** migrate `stats/base/dists/uniform/variance` to ULP-based assertions [(#15545)](https://github.com/stdlib-js/stdlib/pull/15545) _(by Devansh Patel)_
+-   [`2b7b08f`](https://github.com/stdlib-js/stdlib/commit/2b7b08f54bf6dd3924844e525e3ebe19a75e4a4a) - **test:** migrate `stats/base/dists/uniform/median` to ULP-based assertions [(#15418)](https://github.com/stdlib-js/stdlib/pull/15418) _(by Athan Reines)_
+-   [`706d998`](https://github.com/stdlib-js/stdlib/commit/706d99816de046d6f7def762c98a8061b830c1b4) - **test:** migrate `stats/base/dists/uniform/stdev` to ULP-based assertions [(#15338)](https://github.com/stdlib-js/stdlib/pull/15338) _(by Athan Reines)_
+-   [`2bb4167`](https://github.com/stdlib-js/stdlib/commit/2bb4167e07517f7abf40b4f095cc4cac3b9afab6) - **test:** migrate `stats/base/dists/uniform/logcdf` to ULP-based assertions [(#15253)](https://github.com/stdlib-js/stdlib/pull/15253) _(by Aryan kumar)_
+-   [`46409dc`](https://github.com/stdlib-js/stdlib/commit/46409dc9f97a21947b5091e34d75d278fc0aff21) - **style:** add whitespace [(#15184)](https://github.com/stdlib-js/stdlib/pull/15184) _(by Philipp Burckhardt)_
 -   [`02eea36`](https://github.com/stdlib-js/stdlib/commit/02eea36390157951b2bdc66331c9b469c187bfc4) - **test:** migrate `stats/base/dists/uniform/cdf` to ULP-based assertions [(#15192)](https://github.com/stdlib-js/stdlib/pull/15192) _(by Aryan kumar)_
 -   [`6224797`](https://github.com/stdlib-js/stdlib/commit/6224797683e0913dddd52ff37f71f707486ae101) - **test:** migrate `stats/base/dists/uniform/pdf` to ULP-based assertions [(#15172)](https://github.com/stdlib-js/stdlib/pull/15172) _(by Aryan kumar)_
 -   [`ffef941`](https://github.com/stdlib-js/stdlib/commit/ffef941902c2d3fa1287248f5eea617532719b44) - **test:** migrate `stats/base/dists/uniform/mgf` to ULP-based assertions [(#15174)](https://github.com/stdlib-js/stdlib/pull/15174) _(by Aryan kumar)_
@@ -40,10 +49,11 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
+-   Devansh Patel
 -   Karan Anand
 -   LZYCODEr
 -   Philipp Burckhardt

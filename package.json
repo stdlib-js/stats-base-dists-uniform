@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/stats-base-dists-uniform",
   "version": "0.3.1",
-  "description": "Uniform distribution.",
+  "description": "Continuous uniform distribution.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -62,7 +62,6 @@
     "@stdlib/constants-float64-ninf": "^0.2.3",
     "@stdlib/constants-float64-pinf": "^0.2.3",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
-    "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-exp": "^0.2.5",
     "@stdlib/math-base-special-ln": "^0.2.5",
     "@stdlib/math-base-special-pow": "^0.3.1",
